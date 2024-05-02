@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
       width: 300,
       height: 300,
       color: Colors.grey,
-      child: Image.network('https://media.istockphoto.com/id/1214907564/photo/protective-antiviral-mask-on-the-cats-face-protective-face-mask-for-animals-coronavirus-and.jpg?s=612x612&w=0&k=20&c=IFA1O9mCP7KTUo5hq2zm2Xy-D62lWU82JaiVB1BiDow='),// Use form Online
-      // child: Image.asset('assets/image/img.png'),
+      // child: Image.network('https://media.istockphoto.com/id/1214907564/photo/protective-antiviral-mask-on-the-cats-face-protective-face-mask-for-animals-coronavirus-and.jpg?s=612x612&w=0&k=20&c=IFA1O9mCP7KTUo5hq2zm2Xy-D62lWU82JaiVB1BiDow='),// Use form Online
+      child: Image.asset('assets/images/cat.jpeg'),
     );
   }
 }
