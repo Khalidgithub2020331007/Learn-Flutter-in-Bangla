@@ -13,9 +13,11 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           appBar: AppBar(
-              title: const Text('HomePage'),
-              centerTitle: true,
-              shadowColor: Colors.blue),
+            title: const Text('HomePage'),
+            centerTitle: true,
+            backgroundColor: Colors.blue,
+            foregroundColor: Colors.white,
+          ),
         ));
   }
 }
